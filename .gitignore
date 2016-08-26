@@ -1,6 +1,4 @@
 node_modules/
-<<<<<<< HEAD
 .DS_Store
-=======
->>>>>>> a065a71249ab3c4eddd891853abf83360b00ed44
 dist/
+npm-debug.log

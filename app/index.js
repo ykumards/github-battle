@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var USER_DATA = {
   name: 'Yogesh Kumar',
   username: 'ykumards',
@@ -7,14 +6,6 @@ var USER_DATA = {
 
 var React = require('react');
 var ReactDOM = require('react-dom');
-
-/*
-  Focused
-  Independent
-  Reusable
-  Small
-  Testable
-*/
 
 var ProfilePic = React.createClass({
   render: function () {
@@ -54,20 +45,3 @@ var Avatar = React.createClass({
 
 
 ReactDOM.render(<Avatar user={USER_DATA} />, document.getElementById('app'));
-=======
-var React = require('react');
-var ReactDOM = require('react-dom');
-
-var HelloWorld = React.createClass({
-    render:function(){
-        return (
-            <div> Hello World </div>
-        )
-    }
-});
-
-ReactDOM.render(
-    <HelloWorld />,
-    document.getElementById('app')
-);
->>>>>>> a065a71249ab3c4eddd891853abf83360b00ed44
