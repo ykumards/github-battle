@@ -1,6 +1,7 @@
 {
   "name": "github-battle",
   "version": "1.0.0",
+<<<<<<< HEAD
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,6 +11,18 @@
   "author": "\"Yogesh Kumar <ykumards@gmail.com>",
   "license": "ISC",
   "dependencies": {
+=======
+  "description": "\"React app built as part of React JS course\"",
+  "main": "index.js",
+  "scripts": {
+      "start": "webpack-dev-server",
+      "production": "webpack -p"
+  },
+  "author": "\"Yogesh Kumar <ykumards@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.1.0",
+>>>>>>> a065a71249ab3c4eddd891853abf83360b00ed44
     "react": "^15.3.1",
     "react-dom": "^15.3.1"
   },
